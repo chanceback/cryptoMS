@@ -1,11 +1,11 @@
 ## How To REQUEST Data
 First, start up the server by running the python file. It should start up on 'http://localhost:3000'.
-To request data make a simple http get request to the server. In the following example I use the Python requests library.
+To request data make a simple HTTP GET request to the server. In the following example I use the *requests* python library.
 ```
 requests.get('http://localhost:3000')
 ```
 ## How To RECEIVE Data
-Store that get request in a variable and use .json() to create a JSON object from the response and to ensure data was received.
+Store the request in a variable and use .json() to create a JSON object from the response. It will also throw an error if a JSON was not received.
 ```
 response = requests.get('http://localhost:3000')
 crypto_data = response.json()

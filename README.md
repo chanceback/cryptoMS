@@ -16,5 +16,5 @@ print(f'Name: {crypto_data["data"][0]["id"]}, Price USD: ${crypto_data["data"][0
 ```
 > Name: bitcoin, Price USD: $29519.1654108398628332
 
-## ULM Sequence Diagram
+## UML Sequence Diagram
 ![image](https://user-images.githubusercontent.com/89743706/236617331-d45f06b1-3d46-4a7f-98e5-feddb7333bfd.png)

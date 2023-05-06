@@ -1,3 +1,4 @@
+# Crypto Currency Information Microservice
 ## How To REQUEST Data
 First, start up the server by running the python file. It should start up on 'http://localhost:3000'.
 To request data make a simple HTTP GET request to the server. In the following example I use the *requests* python library.

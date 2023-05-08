@@ -1,5 +1,5 @@
 # Crypto Currency Information Microservice
-API used for data: Coincap 
+API used for data : Coincap 
 
 Documentation explaining JSON file structure : https://docs.coincap.io/#ee30bea9-bb6b-469d-958a-d3e35d442d7a
 

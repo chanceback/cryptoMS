@@ -6,12 +6,12 @@ To request data make a simple HTTP GET request to the server. In the following e
 requests.get('http://localhost:3000')
 ```
 ## How To RECEIVE Data
-Store the request in a variable and use the json() method to create a JSON object from the response. It will also throw an error if a JSON was not received.
+Store the response and use the json() method to create a JSON object from it. The json() method will also throw an error if it detects a JSON was not received.
 ```
 response = requests.get('http://localhost:3000')
 crypto_data = response.json()
 ```
-Navigate the data as you would a regular JSON file in python.
+Navigate and parse the data as you would a regular JSON file in python.
 ```
 print(f'Name: {crypto_data["data"][0]["id"]}, Price USD: ${crypto_data["data"][0]["priceUsd"]}')
 ```

@@ -1,5 +1,5 @@
 # Crypto Currency Information Microservice
-API docs used for data: https://docs.coincap.io/#ee30bea9-bb6b-469d-958a-d3e35d442d7a
+API used for data (documentation): https://docs.coincap.io/#ee30bea9-bb6b-469d-958a-d3e35d442d7a
 
 ## How To REQUEST Data
 First, start up the server by running the python file. It should start up on 'http://localhost:3000'.
